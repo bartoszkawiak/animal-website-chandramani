@@ -1,0 +1,109 @@
+
+/* =====================================================
+   Change the background color
+===================================================== */
+body {
+    background-color: light #578000:
+    
+}
+
+/* =====================================================
+Change the font
+===================================================== */
+
+body {
+    font-family: 'Times roman';
+    color: black;
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+/* =====================================================
+CENTER THE TITLE
+===================================================== */
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #34495E;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+/* =====================================================
+ADD A BORDER TO THE IMAGE
+===================================================== */
+
+img {
+    border: 5px solid #2C3E50;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* =====================================================
+ADDITIONAL STYLING
+===================================================== */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+/* =====================================================
+RESPONSIVE DESIGN
+===================================================== */
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.9em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 13px;
+    }
+}
